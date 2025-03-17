@@ -1,0 +1,39 @@
+.promo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-wrap {
+    border-radius: 32px;
+    max-width: 968px;
+    background: #02897a;
+    display: flex;
+    gap: 10px;
+    padding-right: 46px;
+    padding-left: 51px;
+}
+
+.promo-box {
+    padding: 49px 0 56px 0;
+}
+
+.promo-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 46px;
+    max-width: 490px;
+}
+
+.promo-btn {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    border: transparent;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+}

@@ -1,0 +1,136 @@
+.pricing {
+    padding-top: 71px;
+}
+
+
+.pricing-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 auto 10px;
+    width: 192px;
+
+}
+
+.pricing-text {
+    font-weight: 500;
+    font-size: 16px;
+    width: 213px;
+    margin: 0 auto 40px;
+}
+
+.pricing-list {
+    display: flex;
+    gap: 72px;
+}
+
+.pricing-item {
+    border-radius: 8px;
+    width: calc((100% - 144px) / 3);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.active-item {
+    background: #02897a;
+    color: #ffffff;
+}
+
+.pricing-subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.7;
+
+}
+
+.pricing-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.pricing-box {
+    display: flex;
+    align-items: center;
+
+}
+
+.price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+
+.price-active {
+    color: #fff;
+}
+
+.dollar {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+
+.dollar-active {
+    color: #fff;
+}
+
+.pricing-item-txt {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.pricing-item-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.pricing-item-list-txt {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.pricing-item-list-txt-active {
+    color: #fff;
+}
+
+.pricing-button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    border: transparent;
+    width: 139px;
+    height: 44px;
+    background: #02897a;
+}
+
+.pricing-btn {
+    background: #fff;
+    color: #02897a;
+}

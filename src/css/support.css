@@ -1,0 +1,100 @@
+.support {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.support-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.support-wrap {
+    width: 450px;
+}
+
+.support-text {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+
+.support-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.support-list {
+    margin-top: 30px;
+}
+
+.support-item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 450px;
+    height: 52px;
+    margin-bottom: 25px;
+}
+
+.support-logo {
+    border: 3px solid #fff;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+}
+
+.orange {
+    fill: orangered;
+    stroke: #fff;
+}
+
+.red {
+    fill: red;
+    stroke: #fff;
+}
+
+.blue {
+    fill: blue;
+    stroke: #fff;
+}
+
+
+
+.support-txt {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 386px;
+
+}
+
+.support-txt::before {
+    content: "";
+    display: block;
+    border: 3px solid #fff;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/Path.svg);
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.support-item:nth-child(1) .support-txt::before {
+    background-color: #f90;
+}
+
+.support-item:nth-child(2) .support-txt::before {
+    background-color: #f03e3d;
+}
+
+.support-item:nth-child(3) .support-txt::before {
+    background-color: #4d8dff;
+}
