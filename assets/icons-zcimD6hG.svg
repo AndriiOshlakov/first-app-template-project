@@ -49,5 +49,19 @@
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"
         d="M30.667 4.013a14.542 14.542 0 0 1-4.187 2.04 5.975 5.975 0 0 0-6.637-1.661A5.979 5.979 0 0 0 16 10.053v1.333a14.211 14.211 0 0 1-12-6.04s-5.333 12 6.667 17.333a15.519 15.519 0 0 1-9.333 2.667c12 6.667 26.667 0 26.667-15.333a5.966 5.966 0 0 0-.107-1.107 10.288 10.288 0 0 0 2.773-4.893z" />
     </symbol>
+    <symbol id="circle_right" viewBox="0 0 34 32">
+      <path d="M18.672 17.6h-9.872v-3.2h9.872l-4.128-4.144 2.256-2.256 8 8-8 8-2.256-2.256 4.128-4.144z"></path>
+      <path
+        d="M0.8 16c0 8.836 7.163 16 16 16s16-7.164 16-16c0-8.837-7.164-16-16-16s-16 7.163-16 16zM4 16c0-7.069 5.731-12.8 12.8-12.8s12.8 5.731 12.8 12.8c0 7.069-5.731 12.8-12.8 12.8s-12.8-5.731-12.8-12.8z">
+      </path>
+    </symbol>
+    <symbol id="burger" viewBox="0 0 29 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968"
+        d="M3.613 16h21.677"></path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968"
+        d="M3.613 8h21.677"></path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968"
+        d="M3.613 24h21.677"></path>
+    </symbol>
   </defs>
 </svg>
