@@ -24,12 +24,16 @@
 @import url('./promo.css');
 @import url('./footer.css');
 
-/*   Section Pricing style   */
+/*   Section Pricing styles   */
 @import url('./price-box.css');
 @import url('./enterprice.css');
 @import url('./thing.css');
 @import url('./question.css');
 @import url('./promo-customers.css');
 
+/* Section Resource styles */
+@import url('./resource-hero.css');
+@import url('./stories.css');
+@import url('./contact-us.css');
 
-/*   Section Customers style   */
+/*   Section Customers styles  */
