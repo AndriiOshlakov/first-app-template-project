@@ -5,12 +5,14 @@
 
 .support-container {
     display: flex;
+    flex-direction: column;
+
     align-items: center;
     justify-content: space-between;
 }
 
 .support-wrap {
-    width: 450px;
+    margin-top: 50px;
 }
 
 .support-text {
@@ -19,59 +21,34 @@
     margin-bottom: 8px;
 }
 
-
 .support-title {
     font-weight: 700;
     font-size: 32px;
-    margin-bottom: 25px;
+    margin-bottom: 16px;
+}
+
+.support-txts {
+    max-width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
 }
 
 .support-list {
-    margin-top: 30px;
-}
-
-.support-item {
+    margin-top: 16px;
     display: flex;
-    gap: 30px;
-    align-items: center;
-    width: 450px;
-    height: 52px;
-    margin-bottom: 25px;
+    flex-direction: column;
+    gap: 16px;
 }
-
-.support-logo {
-    border: 3px solid #fff;
-    border-radius: 14px;
-    width: 35px;
-    height: 35px;
-}
-
-.orange {
-    fill: orangered;
-    stroke: #fff;
-}
-
-.red {
-    fill: red;
-    stroke: #fff;
-}
-
-.blue {
-    fill: blue;
-    stroke: #fff;
-}
-
-
 
 .support-txt {
     display: flex;
-    align-items: center;
     gap: 30px;
+    align-items: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    width: 386px;
-
+    max-width: 320px;
 }
 
 .support-txt::before {
@@ -97,4 +74,43 @@
 
 .support-item:nth-child(3) .support-txt::before {
     background-color: #4d8dff;
+}
+
+@media screen and (min-width:1400px) {
+
+    .support-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .support-wrap {
+        width: 450px;
+        margin-top: 0;
+    }
+
+    .support-title {
+        margin-bottom: 25px;
+    }
+
+    .support-txts {
+        max-width: 380px;
+    }
+
+    .support-list {
+        margin-top: 30px;
+        gap: 25px;
+    }
+
+    .support-item {
+        width: 450px;
+        height: 52px;
+    }
+
+
+    .support-txt {
+        max-width: 386px;
+    }
+
 }

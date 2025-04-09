@@ -1,49 +1,46 @@
 .pricing {
-    padding-top: 71px;
+    padding-top: 11px;
+    padding-bottom: 50px;
 }
 
+.pricing-container {
+    max-width: 322px;
+}
 
 .pricing-title {
     font-size: 34px;
     font-weight: 700;
-    margin: 0 auto 10px;
-    width: 192px;
-
+    margin: 0 auto 8px;
+    text-align: center;
 }
 
 .pricing-text {
     font-weight: 500;
     font-size: 16px;
-    width: 213px;
-    margin: 0 auto 40px;
+    margin: 0 auto 71px;
+    text-align: center;
 }
 
 .pricing-list {
     display: flex;
-    gap: 72px;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .pricing-item {
     border-radius: 8px;
-    width: calc((100% - 144px) / 3);
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 32px;
+    padding-top: 24px;
     padding-bottom: 32px;
-}
-
-.active-item {
-    background: #02897a;
-    color: #ffffff;
 }
 
 .pricing-subtitle {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.7;
-
 }
 
 .pricing-txt {
@@ -57,7 +54,6 @@
 .pricing-box {
     display: flex;
     align-items: center;
-
 }
 
 .price {
@@ -70,12 +66,8 @@
     color: #02897a;
 }
 
-.price-active {
-    color: #fff;
-}
-
 .dollar {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.25;
@@ -83,15 +75,11 @@
     color: #02897a;
 }
 
-.dollar-active {
-    color: #fff;
-}
-
 .pricing-item-txt {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.2;
     letter-spacing: 0.01em;
     color: #afafaf;
 }
@@ -102,20 +90,16 @@
     align-items: center;
     gap: 16px;
     margin-top: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 38px;
 }
 
 .pricing-item-list-txt {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.38;
     letter-spacing: 0.01em;
     color: #22343d;
-}
-
-.pricing-item-list-txt-active {
-    color: #fff;
 }
 
 .pricing-button {
@@ -125,12 +109,79 @@
     color: #fff;
     border-radius: 8px;
     border: transparent;
-    width: 139px;
-    height: 44px;
+    display: block;
+    padding: 11px 18px;
     background: #02897a;
 }
 
-.pricing-btn {
-    background: #fff;
-    color: #02897a;
+
+@media screen and (min-width:1400px) {
+
+    .pricing {
+        padding-top: 71px;
+    }
+
+    .pricing-container {
+        max-width: 1110px;
+    }
+
+    .pricing-title {
+        margin-bottom: 10px;
+        width: 192px;
+    }
+
+    .pricing-text {
+        width: 213px;
+        margin-bottom: 40px;
+    }
+
+    .pricing-list {
+        flex-direction: row;
+        gap: 72px;
+    }
+
+    .pricing-item {
+        width: calc((100% - 144px) / 3);
+        padding-top: 32px;
+    }
+
+    .pricing-item:hover,
+    .pricing-item:hover .price,
+    .pricing-item:hover .dollar,
+    .pricing-item:hover .pricing-item-list-txt {
+        background: #02897a;
+        color: #ffffff;
+    }
+
+
+    .dollar {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .pricing-item-txt {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .pricing-item-list {
+        margin-bottom: 30px;
+    }
+
+    .pricing-item-list-txt {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .pricing-button {
+        transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .pricing-item:hover:hover .pricing-button {
+        background: #fff;
+        color: #02897a;
+    }
+
+    .pricing-button:hover,
+    .pricing-button:focus {
+        transform: scale(1.2);
+    }
+
 }

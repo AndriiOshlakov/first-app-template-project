@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     margin-top: 16px;
-    gap: 28px;
+    justify-content: space-between;
 
 }
 
@@ -111,6 +111,34 @@
     .hero-btn {
         min-width: 178px;
         height: 53px;
+        transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .hero-btn:hover,
+    .hero-btn:focus {
+        background-color: darkolivegreen;
+        color: bisque;
+        transform: scale(1.2);
+    }
+
+    .hero-btn-video {
+        transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .hero-btn-video:hover,
+    .hero-btn-video:focus {
+        color: rgb(11, 50, 50);
+    }
+
+    .hero-btn-video>svg,
+    .hero-btn-video>svg {
+        transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .hero-btn-video:hover>svg,
+    .hero-btn-video:focus>svg {
+        color: darkcyan;
+        transform: scale(1.4);
     }
 
 }

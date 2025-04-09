@@ -5,22 +5,24 @@
 
 .colaboration-container {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
 }
 
 .colaboration-wrap {
-    margin-right: 84px;
+    margin-top: 50px;
 }
 
 .colaboration-text {
     font-weight: 600;
+    font-size: 16px;
     margin-bottom: 8px;
 }
 
-.colaborationtitle {
+.colaboration-title {
     font-weight: 700;
     font-size: 32px;
-    margin-bottom: 28px;
+    margin-bottom: 16px;
 }
 
 .colaboration-txt {
@@ -30,18 +32,37 @@
 }
 
 .colaboration-list {
-    margin-top: 46px;
+    margin-top: 16px;
 }
 
 .colaboration-item.first-item {
     margin-bottom: 25px;
 }
 
-
-
 .colaboration-subtitle {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.625;
     margin-bottom: 12px;
+}
+
+@media screen and (min-width:1400px) {
+
+    .colaboration-container {
+        flex-direction: row;
+    }
+
+    .colaboration-wrap {
+        margin-top: 0;
+        margin-right: 84px;
+    }
+
+    .colaboration-title {
+        margin-bottom: 28px;
+    }
+
+    .colaboration-list {
+        margin-top: 46px;
+    }
+
 }
