@@ -1,0 +1,116 @@
+.product-work {
+    padding-top: 96px;
+    padding-bottom: 70px;
+}
+
+.product-work-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-work-title {
+    font-weight: 700;
+    font-size: 32px;
+
+    color: #22343d;
+    margin-bottom: 80px;
+}
+
+.product-work-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+
+.product-work-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+
+.item-step {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.product-work-item-text {
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343d;
+}
+
+.product-work-item-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+}
+
+.product-work-item-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    max-width: 315px;
+}
+
+.get-in {
+    display: none;
+}
+
+@media screen and (min-width:1400px) {
+
+    .product-work {
+        padding-top: 101px;
+        padding-bottom: 115px;
+    }
+
+    .product-work-title {
+        font-size: 34px;
+        margin-bottom: 73px;
+    }
+
+    .product-work-list {
+        row-gap: 100px;
+        margin-bottom: 72px;
+    }
+
+    .product-work-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1028px;
+    }
+
+    .item-step {
+        justify-content: center;
+    }
+
+    .product-work-item-txt {
+        max-width: 390px;
+    }
+
+    .get-in {
+        display: block;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #fff;
+        background-color: #02897a;
+        border: transparent;
+        border-radius: 8px;
+        min-width: 224px;
+        height: 44px;
+        transition: all 1s ease;
+    }
+
+    .get-in:hover,
+    .get-in:focus {
+        transform: scale(1.2);
+        background-color: rgb(138, 242, 242);
+        color: #53575a;
+    }
+}

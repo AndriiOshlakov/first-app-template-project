@@ -66,12 +66,14 @@
 
     .promo-btn {
         margin-left: 0;
-        transition: all 1s ease-in-out;
+        transition: all 0.5s ease;
     }
 
     .promo-btn:hover,
     .promo-btn:focus {
         transform: scale(1.2);
+        background-color: darkseagreen;
+        color: brown;
     }
 
 }

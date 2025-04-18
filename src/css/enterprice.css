@@ -1,45 +1,78 @@
-.enterprice {
-    padding: 100px 0;
-    background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
-}
+   .enterprice {
+       padding: 50px 0;
+       background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+   }
 
-.enterprice-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+   .enterprice-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
 
-.enterprice-text {
-    margin: 53px 0 16px;
-    font-weight: 600;
-    font-size: 24px;
-    color: #22343d;
-}
+   .enterprice-text {
+       margin: 47px 0 24px;
+       font-weight: 600;
+       font-size: 24px;
+       color: #22343d;
+   }
 
-.enterprice-title {
-    font-weight: 700;
-    font-size: 34px;
-    color: #22343d;
-    margin-bottom: 8px;
-}
+   .enterprice-title {
+       font-weight: 700;
+       font-size: 34px;
+       color: #22343d;
+       margin-bottom: 24px;
+       text-align: center;
+   }
 
-.enterprice-txt {
-    font-weight: 400;
-    font-size: 18px;
-    color: #22343d;
-    margin-bottom: 32px;
-}
+   .enterprice-txt {
+       font-weight: 400;
+       font-size: 18px;
+       color: #22343d;
+       margin-bottom: 32px;
+       text-align: center;
+       max-width: 300px;
+   }
 
-.enterprice-btn {
-    display: block;
-    margin-bottom: 51px;
-    border-radius: 8px;
-    min-width: 224px;
-    height: 44px;
-    background-color: #02897a;
-    font-family: "Montserrat", sans-serif;
-    border: none;
-    font-weight: 600;
-    font-size: 18px;
-    color: #fff;
-}
+   .enterprice-btn {
+       display: block;
+       margin-bottom: 50px;
+       border-radius: 8px;
+       min-width: 224px;
+       height: 44px;
+       background-color: #02897a;
+       font-family: "Montserrat", sans-serif;
+       border: none;
+       font-weight: 600;
+       font-size: 18px;
+       color: #fff;
+   }
+
+   @media screen and (min-width:1400px) {
+
+       .enterprice {
+           padding: 100px 0;
+       }
+
+       .enterprice-text {
+           margin: 53px 0 16px;
+       }
+
+       .enterprice-title {
+           margin-bottom: 8px;
+       }
+
+       .enterprice-txt {
+           max-width: 600px;
+       }
+
+       .enterprice-btn {
+           transition: all 0.5s ease;
+       }
+
+       .enterprice-btn:hover,
+       .enterprice-btn:focus {
+           transform: scale(1.2);
+           background-color: rgba(29, 235, 242, 0.114);
+           color: #0b453f;
+       }
+   }
